@@ -189,7 +189,7 @@ function TradingPairs(props) {
 
 
     return(
-        <div className="cars">
+        <div className="cars basis-2/3">
             <div className=" flex-wrap flex ">
                 {carz
             .map(
@@ -200,7 +200,7 @@ function TradingPairs(props) {
                     {/* <img className="car-img" src={`${filteredCar.img}`} alt={`${filteredCar.title}`}/> */}
                     <div className="car-info pt-2">
                         <div className="car-details  ">
-                            <Button sx={{ width: 100, padding: 1, margin: 2 }} onClick={showDetailsHandler}>{filteredCar.pair}</Button>
+                            <Button sx={{ width: 80, padding: 1, margin: 1 }} onClick={showDetailsHandler}>{filteredCar.pair}</Button>
 
                         </div>
 
