@@ -1,7 +1,7 @@
 
 import TradingPairs from "../components/meetups/TradingPairs"
 import AverageValues from "../components/meetups/AverageValues"
-function Homepage(props){
+function Homepage(){
     return (
         <>
         <div className=" container md:flex ">
@@ -13,15 +13,5 @@ function Homepage(props){
     
 }
 
-
-// export async function getStaticProps() {
-//     //fetch api data
-//     return {
-//         props: {
-//             meetups: DUMMY_MEETUPS
-//         },
-//         revalidate: 10
-//     }
-// }
 
 export default Homepage
